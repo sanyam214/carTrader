@@ -3,12 +3,6 @@
         <div v-if="isloading==false"  class="LeftSection">
             <ul>
                 <li>
-                     <span>
-                        <p>{{loanValue}}</p>
-                    </span>
-                    <input type="range" @input="typeinput" ref="sliderTrack" value="50" />
-                </li>
-                <li>
                    <img src="https://as2.ftcdn.net/jpg/00/95/60/61/500_F_95606194_TeneVz1Kdz2FyFRdYXUO4LAEoFJO5xdP.jpg" alt="">
                     <button v-on:click="showlistcars('Limosine')"><h5>Limousine</h5></button>
                 </li>
