@@ -7,7 +7,7 @@
          <div class="inputs">
              <input class="searchtext" v-on:keyup.enter="submitform" v-model="zipcode" placeholder="Enter Zip code to search..." >
              <NuxtLink class="linking"  :to="`/listing?zipcode=${zipcode}`">
-                 <img src="https://www.flaticon.com/svg/vstatic/svg/622/622605.svg?token=exp=1619233742~hmac=980e2c20fcb497c01c18de4c80dc4631" />
+                 <img src="https://png.pngtree.com/png-vector/20190419/ourmid/pngtree-vector-right-arrow-icon-png-image_956430.jpg" />
              </NuxtLink>
          </div >
         <!-- <div class="formWrapper">
