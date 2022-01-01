@@ -3,12 +3,6 @@
         <div v-if="isloading==false"  class="LeftSection">
             <ul>
                 <li>
-                     <span>
-                        <p>{{loanValue}}</p>
-                    </span>
-                    <input type="range" @input="typeinput" ref="sliderTrack" value="50" />
-                </li>
-                <li>
                    <img src="https://as2.ftcdn.net/jpg/00/95/60/61/500_F_95606194_TeneVz1Kdz2FyFRdYXUO4LAEoFJO5xdP.jpg" alt="">
                     <button v-on:click="showlistcars('Limosine')"><h5>Limousine</h5></button>
                 </li>
@@ -54,7 +48,7 @@
                          <Arrow-Corousel currentpage="listingpage" :interior="i.images" />
                        <div class="likes" @click="showModal">
                            <div class="heart">
-                               <img src="https://www.flaticon.com/svg/vstatic/svg/3141/3141738.svg?token=exp=1619165798~hmac=13261c01e9403e2d1fc2809df2c6a9ee" alt="">
+                               <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="">
                            </div>
                            <div class="premium" v-if="i.Features.premium">Premium</div>
                         </div>
@@ -65,7 +59,7 @@
                             <b-form-rating style="border:none; padding:0px" color="#0288d1" show-value>{{i.rating}}</b-form-rating>
                         </div>
                         
-                        <h4><img src="https://www.flaticon.com/svg/vstatic/svg/25/25473.svg?token=exp=1619246188~hmac=b6e6bd326cc2683cddd4d7e9e81df306" style= "height:15px;width:20px;margin-bottom:0.3rem;" alt="">{{i.price}}/- onwards <h5>Show price in my city</h5></h4>
+                        <h4><img src="https://banner2.cleanpng.com/20180421/oce/kisspng-indian-rupee-sign-currency-symbol-5adac36290a8a8.4315496915242863065925.jpg" style= "height:15px;width:20px;margin-bottom:0.3rem;" alt="">{{i.price}}/- onwards <h5>Show price in my city</h5></h4>
                         <h3 style="font-size:0.9rem; margin-top:0px; font-weight:400; margin-left:0.2rem">Avg. Ex-showroom price</h3>
                         <div class="extrafeatures">
                             <!-- <NuxtLink to="/alert" class="makeanoffer">Make an Offer</NuxtLink>  -->
@@ -103,7 +97,7 @@
                          <Arrow-Corousel currentpage="listingpage" :interior="i.images" />
                        <div class="likes" @click="showModal">
                            <div class="heart">
-                               <img src="https://www.flaticon.com/svg/vstatic/svg/3141/3141738.svg?token=exp=1619165798~hmac=13261c01e9403e2d1fc2809df2c6a9ee" alt="">
+                               <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="">
                            </div>
                            <!-- <div class="premium" v-if="i.Features.premium">Premium</div> -->
                         </div>
@@ -114,7 +108,7 @@
                             <b-form-rating style="border:none; padding:0px" color="#0288d1" show-value>{{i.rating}}</b-form-rating>
                         </div>
                         
-                        <h4> <img src="https://www.flaticon.com/svg/vstatic/svg/25/25473.svg?token=exp=1619246188~hmac=b6e6bd326cc2683cddd4d7e9e81df306" style= "height:15px;width:20px;margin-bottom:0.3rem;" alt="">{{i.price}}/- onwards <h5>Show price in my city</h5></h4>
+                        <h4> <img src="https://banner2.cleanpng.com/20180421/oce/kisspng-indian-rupee-sign-currency-symbol-5adac36290a8a8.4315496915242863065925.jpg" style= "height:15px;width:20px;margin-bottom:0.3rem;" alt="">{{i.price}}/- onwards <h5>Show price in my city</h5></h4>
                         <h3 style="font-size:0.9rem; margin-top:0px; font-weight:400; margin-left:0.2rem">Avg. Ex-showroom price</h3>
                         <div class="extrafeatures">
                              <!-- <b-button style="margin-top: 7px;border: none; color:white; background-color:#c0c0c0" @click="makeToast('success')">Make an Offer</b-button> -->

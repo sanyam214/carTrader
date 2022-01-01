@@ -12,13 +12,13 @@
             img-src="https://www.mercedes-benz.com/en/company/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20191025121730/01-mercedes-benz-ag-company-3400x1440.jpeg">
             </b-carousel-slide>
             <b-carousel-slide
-            img-src="https://www.mercedes-benz.com/en/_jcr_content/root/slider_copy_copy/sliderchilditems/slideritem_791391558/image/MQ7-0-image-20210418133527/mercedes-benz-eqs-v297-homepage-3400x1440-03-2021.jpeg"
+            img-src="https://www.mercedes-benz.com/en/company/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20191025121730/01-mercedes-benz-ag-company-3400x1440.jpeg"
             ></b-carousel-slide>
             <b-carousel-slide
             img-src="https://www.mercedes-benz.com/en/company/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20191025121730/01-mercedes-benz-ag-company-3400x1440.jpeg"
             ></b-carousel-slide>
                 <b-carousel-slide
-                    img-src="https://www.mercedes-benz.com/en/_jcr_content/root/slider_copy_copy/sliderchilditems/slideritem_791391558/image/MQ7-0-image-20210418133527/mercedes-benz-eqs-v297-homepage-3400x1440-03-2021.jpeg"
+                    img-src="https://www.mercedes-benz.com/en/company/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20191025121730/01-mercedes-benz-ag-company-3400x1440.jpeg"
                     ></b-carousel-slide>
                 </b-carousel>
         </div>
